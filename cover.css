@@ -1,22 +1,24 @@
 /*
  * Globals
- */
 
+
+ */
 /* Links */
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #06e8a8;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #06e8a8;
+  border: 1px transparent #fff;
+    
 }
 
 
@@ -27,14 +29,19 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #063e63;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    
 }
 
+p {
+    font-size: 14px;
+     font-family: 'Open Sans', sans-serif;
+}
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -78,7 +85,7 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
+  color: #000; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -91,8 +98,8 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #06e8a8;
+  border-bottom-color: #06e8a8;
 }
 
 @media (min-width: 768px) {
